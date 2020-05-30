@@ -1,0 +1,63 @@
+{
+  "books": [
+    {
+      "title": "Name of the Wind",
+      "subType": "Fantasy",
+      "genre": "FICTION",
+      "id": "1",
+      "authorId": "1"
+    },
+    {
+      "title": "The Final Empire",
+      "subType": "Fantasy",
+      "genre": "NON_FICTION",
+      "id": "2",
+      "authorId": "2"
+    },
+    {
+      "title": "The Hero of Ages",
+      "subType": "Fantasy",
+      "genre": "FICTION",
+      "id": "4",
+      "authorId": "2"
+    },
+    {
+      "title": "The Long Earth",
+      "subType": "Sci-Fi",
+      "genre": "FICTION",
+      "id": "3",
+      "authorId": "3"
+    },
+    {
+      "title": "The Colour of Magic",
+      "subType": "Fantasy",
+      "genre": "FICTION",
+      "id": "5",
+      "authorId": "3"
+    },
+    {
+      "title": "The Light Fantastic",
+      "subType": "Fantasy",
+      "genre": "FICTION",
+      "id": "6",
+      "authorId": "3"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Patrick Rothfuss",
+      "age": 44,
+      "id": "1"
+    },
+    {
+      "name": "Brandon Sanderson",
+      "age": 42,
+      "id": "2"
+    },
+    {
+      "name": "Terry Pratchett",
+      "age": 66,
+      "id": "3"
+    }
+  ]
+}

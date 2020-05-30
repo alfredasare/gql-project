@@ -35,13 +35,7 @@
       "id": "5",
       "authorId": "3"
     },
-    {
-      "title": "The Light Fantastic",
-      "subType": "Fantasy",
-      "genre": "FICTION",
-      "id": "6",
-      "authorId": "3"
-    }
+    {}
   ],
   "authors": [
     {

@@ -22,6 +22,22 @@ const typeDefs = gql`
         genre: BookGenre
     }
     
+    input NewBookInput {
+        id: ID!
+        title: String!
+        subType: String!
+        genre: BookGenre!
+        authorId: ID!
+    }
+    
+    input EditBookInput {
+        id: ID!
+        title: String
+        subType: String
+        genre: BookGenre
+        authorId: ID
+    }
+    
     type Author {
         id: ID!
         name: String!
@@ -35,11 +51,24 @@ const typeDefs = gql`
         age: Int
     }
     
+    input NewAuthorInput {
+        id: ID!
+        name: String!
+        age: Int!
+    }
+    
     type Query {
         book(input: BookInput): Book
         books(input: BookInput): [Book]!
         author(input: AuthorInput): Author
         authors(input: AuthorInput): [Author]!
+    }
+    
+    type Mutation {
+        addBook(input: NewBookInput!): Book!
+        editBook(input: EditBookInput!): Book!
+        deleteBook(id: ID!): Book
+        addAuthor(input: NewAuthorInput!): Author!
     }
     
     

@@ -3,6 +3,7 @@ import './home.styles';
 import Landing from "../../components/landing/landing.component";
 import SubHeader from "../../components/subsection-header/sub-header.component";
 import CardList from "../../components/card-list/card-list.component";
+import '../../utils/navbar-disappear';
 
 const Home = () => {
 

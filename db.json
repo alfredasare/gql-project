@@ -4,6 +4,7 @@
       "title": "Name of the Wind",
       "subType": "Fantasy",
       "genre": "FICTION",
+      "img": "https://firebasestorage.googleapis.com/v0/b/gql-project.appspot.com/o/book-covers%2F5842686-l.jpg?alt=media&token=7a7e1aa8-500e-44bb-8fee-e7870dcf4c7d",
       "id": "1",
       "authorId": "1"
     },
@@ -11,6 +12,7 @@
       "title": "The Final Empire",
       "subType": "Fantasy",
       "genre": "NON_FICTION",
+      "img": "https://firebasestorage.googleapis.com/v0/b/gql-project.appspot.com/o/book-covers%2Fmain-qimg-4cc2c7932d63222e840c8d10b1f96824.png?alt=media&token=c2000e55-bd3b-4669-9aec-77cca7c623be",
       "id": "2",
       "authorId": "2"
     },
@@ -18,6 +20,7 @@
       "title": "The Hero of Ages",
       "subType": "Fantasy",
       "genre": "FICTION",
+      "img": "https://firebasestorage.googleapis.com/v0/b/gql-project.appspot.com/o/book-covers%2F81RPa1UMMwL.jpg?alt=media&token=4a80d574-a5c4-4532-a615-fabfde1b7b47",
       "id": "4",
       "authorId": "2"
     },
@@ -25,6 +28,7 @@
       "title": "The Long Earth",
       "subType": "Sci-Fi",
       "genre": "FICTION",
+      "img": "https://firebasestorage.googleapis.com/v0/b/gql-project.appspot.com/o/book-covers%2F911VVSuWQKL.jpg?alt=media&token=0ca7a3b7-1a3b-4e91-9c3a-d25f9bf4c605",
       "id": "3",
       "authorId": "3"
     },
@@ -32,10 +36,10 @@
       "title": "The Colour of Magic",
       "subType": "Fantasy",
       "genre": "FICTION",
+      "img": "https://firebasestorage.googleapis.com/v0/b/gql-project.appspot.com/o/book-covers%2Fcolourofmagic.jpg?alt=media&token=46772117-c9f4-444b-9d18-1fa78c1b4791",
       "id": "5",
       "authorId": "3"
-    },
-    {}
+    }
   ],
   "authors": [
     {

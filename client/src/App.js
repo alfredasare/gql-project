@@ -10,7 +10,7 @@ function App() {
     return (
         <div className="App">
             <GlobalStyle/>
-            <ScrollToTop/>
+            {/*<ScrollToTop/>*/}
             <NavBar />
             <Switch>
                 <Route exact path="/" component={Home}/>

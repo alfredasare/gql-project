@@ -8,4 +8,5 @@ export const HeaderContainer = styled.section`
 
 export const SubHeader = styled.h1`
   font-size: ${typeScale.header1};
+  margin-left: 1rem;
 `;

@@ -11,6 +11,7 @@ const typeDefs = gql`
         title: String
         subType: String!
         genre: BookGenre!
+        img: String
         author: Author
         authorId: ID!
     }
@@ -28,6 +29,7 @@ const typeDefs = gql`
         subType: String!
         genre: BookGenre!
         authorId: ID!
+        img: String!
     }
     
     input EditBookInput {
@@ -36,6 +38,7 @@ const typeDefs = gql`
         subType: String
         genre: BookGenre
         authorId: ID
+        img: String
     }
     
     type Author {

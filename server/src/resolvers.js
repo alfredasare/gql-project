@@ -33,6 +33,7 @@ module.exports = {
                 title: input.title,
                 subType: input.subType,
                 genre: input.genre,
+                img: input.img,
                 authorId: input.authorId
             })
                 .then(result => result.data);
@@ -44,6 +45,7 @@ module.exports = {
                 title: input.title,
                 subType: input.subType,
                 genre: input.genre,
+                img: input.img,
                 authorId: input.authorId
             })
                 .then(result => result.data);
